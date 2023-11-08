@@ -5,11 +5,11 @@ Plugins:
     - Theme
 
 Requirements and setup for my nvim config:
-  From lazy.nvim
+  - From lazy.nvim
     - Neovim >= 0.8.0
     - Git >= 2.19.0
     - Nerd Font
-  From kanagawa.nvim
+  - From kanagawa.nvim
     - neovim latest
     - truecolor terminal support
     - undercurl terminal support
