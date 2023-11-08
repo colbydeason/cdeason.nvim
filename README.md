@@ -16,5 +16,5 @@ Requirements and setup for my nvim config:
 
 Installation:
   - Create (or clear from previous config) directory ~/.config/nvim for linux and mac, and %userprofile%/AppData/Local/nvim for windows
-  - Clone directly into this folder
+  - Clone directly into this directory
   - Run nvim and lazy should appear showing the installation of the plugins
