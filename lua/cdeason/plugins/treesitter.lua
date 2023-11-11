@@ -7,6 +7,7 @@ return{
       configs.setup({
           ensure_installed = {"c_sharp", "lua", "c", "vim", "vimdoc"},
           sync_install = false,
+			 auto_install = true,
           highlight = { enable = true },
           indent = { enable = true },  
         })
