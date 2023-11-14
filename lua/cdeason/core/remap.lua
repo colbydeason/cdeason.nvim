@@ -27,4 +27,6 @@ vim.keymap.set("n", "<leader>Y", "\"+Y")
 -- Replace all of that word
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
-
+-- Enable easier window navigation
+vim.keymap.set("n", "<C-h>", "<C-w>h")
+vim.keymap.set("n", "<C-l>", "<C-w>l")
