@@ -16,4 +16,6 @@ vim.opt.termguicolors = true
 
 vim.opt.updatetime = 50
 
+vim.opt.ignorecase = true
+
 
