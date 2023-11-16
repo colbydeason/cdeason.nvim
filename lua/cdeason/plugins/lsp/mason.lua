@@ -21,7 +21,8 @@ return{
 		mason_lspconfig.setup({
 			ensure_installed = {
 				"omnisharp",
-				"lua_ls"
+				"lua_ls",
+				"rust_analyzer"
 			},
 
 			automatic_installation = true,
