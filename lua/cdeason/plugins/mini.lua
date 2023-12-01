@@ -1,9 +1,10 @@
 return {
-    {
-        "echasnovski/mini.nvim",
-        version = false,
-        config = function()
-            require("mini.pairs").setup()
-        end,
-    },
+	{
+		"echasnovski/mini.nvim",
+		version = false,
+		config = function()
+			require("mini.pairs").setup()
+			require("mini.indentscope").setup()
+		end,
+	},
 }
